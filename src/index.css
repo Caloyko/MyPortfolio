@@ -7,14 +7,14 @@
 }
 
 :root {
-    --color-primary: #BAD7E9;
-    --color-primary-2: #2C74B3;
-    --color-background: #251749;
-    --color-background-2: #263159;
-    --color-background-3: #495579;
+    --color-primary: #4db5ff;
+    --color-primary-2: rgba(77, 181, 255, 0.4);
+    --color-background: #1f1f38;
+    --color-background-2: #2c2c6c;
+    --color-background-3: rgba(0, 0, 0, 0.3);
     --color-shadow: rgba(0, 0, 0, 0.1);
-    --color-light: #FFFBEB;
-    --color-text: #FCFFE7;
+    --color-light: rgba(255, 255, 255, 0.6);
+    --color-text: #FFFBEB;
 
     --container-width-lg: 75%;
     --container-width-md: 86%;

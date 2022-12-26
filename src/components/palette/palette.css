@@ -5,12 +5,12 @@
     list-style: none;
     padding: 0;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 2px;
 }
 .color
  {
-    margin: 20px;
+    margin: 10px;
     color: white;
     height: 100px;
     width: 100px;
