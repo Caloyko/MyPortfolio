@@ -1,0 +1,49 @@
+.palette {
+    margin: auto;
+}
+.colors {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+.color
+ {
+    margin: 20px;
+    color: white;
+    height: 100px;
+    width: 100px;
+    background: pink;
+    border-radius: 50%;
+    border: 1px solid black;
+    flex: 0 0 calc(25% - 60px);
+    position: relative;
+    text-align: center;
+    line-height: 95px;
+}
+.bg1 {
+    background: var(--color-background);
+}
+.bg2 {
+    background: var(--color-background-2);
+}
+.bg3 {
+    background: var(--color-background-3);
+}
+.p1 {
+    background: var(--color-primary);
+    color: var(--color-background);
+}
+.p2 {
+    background: var(--color-primary);
+    color: var(--color-background);
+}
+.light {
+    background: var(--color-light);
+    color: var(--color-background);
+}
+.textc {
+    background: var(--color-text);
+    color: var(--color-background);
+}
