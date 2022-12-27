@@ -26,17 +26,17 @@
     background: var(--color-background);
 }
 .bg2 {
-    background: var(--color-background-2);
+    background: var(--color-background-nav);
 }
 .bg3 {
-    background: var(--color-background-3);
+    background: var(--color-background-var);
 }
 .p1 {
     background: var(--color-primary);
     color: var(--color-background);
 }
 .p2 {
-    background: var(--color-primary);
+    background: var(--color-primary-var);
     color: var(--color-background);
 }
 .light {
