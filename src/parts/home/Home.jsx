@@ -10,8 +10,6 @@ import Footer from '../footer/Footer'
 const Home = () => {
   return ( 
     <div>
-      <Palette />
-      App
       <Header/>
       <Nav />
       <About />

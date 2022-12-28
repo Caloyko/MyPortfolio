@@ -1,5 +1,6 @@
 import React from 'react'
 import { skills } from '../../data'
+import "./skills.css"
 
 const Skills = () => {
     const frontSkills = skills.filter(type => type.equals("FRONT"));

@@ -1,9 +1,9 @@
-html {
+/*html {
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-}
+}*/
 
 .cat {
     height: 170px;
@@ -99,4 +99,7 @@ html {
 }
 .notfound__text > h4 {
     margin-bottom: 2rem;
+}
+.home__link {
+    margin: 2rem;
 }

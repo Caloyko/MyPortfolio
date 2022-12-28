@@ -38,7 +38,7 @@ export const projects = [{
   {
     id: 6,
     image: IMG,
-    title: "Associations Epita",
+    title: "Associations",
     github: "https://github.com/",
     demo: "https://github.com/"
   }
