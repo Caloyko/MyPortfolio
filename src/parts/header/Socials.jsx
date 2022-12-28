@@ -5,8 +5,8 @@ import { BsFacebook } from 'react-icons/bs'
 
 const Socials = () => {
   return (
-      <div className='header__social'>
-          <a href='' className='header__social-icon' target="_blank">
+      <div className='header__socials'>
+          <a href='' className='header__socials-icon' target="_blank">
               <AiFillLinkedin />
           </a>
         <a href='https://github.com/Caloyko' target="_blank"><BsGithub /></a>

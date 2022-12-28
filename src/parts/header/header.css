@@ -4,16 +4,18 @@
     padding: 4rem;
     column-gap: 2rem;
     align-items: center;
+    justify-content: space-around;
+    gap: 6rem;
 }
-
+/*
 .main__header-container {
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 6rem;
-}
+}*/
 
 .header-left {
     margin-top: -3rem;
@@ -47,4 +49,20 @@
     .header-image {
         display: none;
     }
+}
+/* =============== HEADER SOCIAL ================ */
+.header__socials {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    align-items: center;
+    position: absolute; 
+    left: 0;
+    bottom: 3rem;
+}
+.header__socials::after{
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background-color: var(--color-primary);
 }

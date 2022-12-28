@@ -10,7 +10,7 @@ const Header = () => {
     <section>
       <div className="header__section">
         <div className="header-left">
-        <Data/>
+          <Data />
         </div>
               <div className="header-right">
                   <div className="header-blur"> </div>
