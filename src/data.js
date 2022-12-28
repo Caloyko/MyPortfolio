@@ -1,4 +1,4 @@
-const IMG = require("./portfolio.png") 
+const IMG = require("./assets/portfolio.png") 
 
 export const projects = [{
     id: 1,
@@ -42,4 +42,58 @@ export const projects = [{
     github: "https://github.com/",
     demo: "https://github.com/"
   }
+]
+
+export const skills = [
+  {
+  type: "FRONT",
+  skill: "CSS",
+  pourcentage: 70
+  },
+    {
+  type: "FRONT",
+  skill: "JS",
+  pourcentage: 70
+  },
+    {
+  type: "FRONT",
+  skill: "Vaadin",
+  pourcentage: 70
+  },
+    {
+  type: "FRONT",
+  skill: "React",
+  pourcentage: 70
+  },
+    {
+  type: "FRONT",
+  skill: "HTML",
+  pourcentage: 70
+  },
+    {
+  type: "BACK",
+  skill: "C",
+  pourcentage: 70
+  },
+    {
+  type: "BACK",
+  skill: "C++",
+  pourcentage: 70
+  },
+    {
+  id: 1,
+  type: "BACK",
+  skill: "Python",
+  pourcentage: 70
+  },
+    {
+  type: "BACK",
+  skill: "SQL",
+  pourcentage: 70
+  },
+    {
+  type: "BACK",
+  skill: "JAVA",
+  pourcentage: 70
+  },
 ]

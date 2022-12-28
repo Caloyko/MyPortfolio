@@ -1,5 +1,5 @@
 import "./portfolio.css"
-import { projects } from "../../assets/data"
+import { projects } from "../../data"
 import Card from "../../components/card/Card"
 import { Link } from "react-router-dom"
 import IMG from "../../assets/portfolio.png"
