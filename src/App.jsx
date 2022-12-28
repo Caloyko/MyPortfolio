@@ -1,26 +1,18 @@
 import React from 'react'
-import Palette from './components/palette/Palette'
-import Header  from './parts/header/Header'
-import Nav  from './parts/nav/Nav'
-import About  from './parts/about/About'
-import Portfolio  from './parts/portfolio/Portfolio'
-import Contact from './parts/contact/Contact'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Home from './parts/home/Home'
+import NotFound from './parts/notFound/NotFound'
 import Footer from './parts/footer/Footer'
 
-
 const App = () => {
-  return (
-    <div>
-      <Palette />
-      App
-      <Header/>
-      <Nav />
-      <About />
-      <Portfolio />
-      <Contact />
+  return (  
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<Home />}/>
+        <Route path='*' element={<NotFound />}/>
+      </Routes>
       <Footer />
-    </div>
-    
+    </BrowserRouter>
   )
 }
 
