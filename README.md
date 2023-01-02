@@ -11,6 +11,22 @@ TODO :
 - [ ] Portfolio
 - [ ] About
 - [ ] Contact
+- [ ] Black / white mode
+
+Structur :
+
+- Home :
+  - responsive
+  - reactive
+- About
+  - experience & education
+- Skills
+- Portfolio :
+  - sort
+  - cards
+- Testimonials
+- Contact
+- Footer
 
 # Getting Started with Create React App
 
